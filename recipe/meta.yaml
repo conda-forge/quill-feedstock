@@ -1,5 +1,5 @@
 {% set name = "quill" %}
-{% set version = "4.4.0" %}
+{% set version = "4.4.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/odygrd/quill/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: be166da93210df53aab34ece1bddd14b08506588186723b504ffeeec651bbf7c
+  sha256: c5e0c829096f81364fd55ac1358fe72b27785839474caa9c904b12a9e95c0e88
   patches:
     - patches/fix.patch
 
