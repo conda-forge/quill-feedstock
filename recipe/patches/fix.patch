@@ -1,5 +1,5 @@
 diff --git a/quill/include/quill/core/BoundedSPSCQueue.h b/quill/include/quill/core/BoundedSPSCQueue.h
-index 7531f39..afbbd1d 100644
+index 673c821..22dce35 100644
 --- a/quill/include/quill/core/BoundedSPSCQueue.h
 +++ b/quill/include/quill/core/BoundedSPSCQueue.h
 @@ -60,6 +60,10 @@
@@ -10,6 +10,6 @@ index 7531f39..afbbd1d 100644
 +  #define MAP_ANONYMOUS MAP_ANON
 +#endif
 +
- namespace quill::detail
- {
- /**
+ QUILL_BEGIN_NAMESPACE
+ 
+ namespace detail
